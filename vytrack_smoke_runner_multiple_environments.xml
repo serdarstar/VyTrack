@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="VyTrack Smoke" verbose="1">
+    <test name="Smoke Test">
+        <parameter name="env" value="qa3"></parameter>
+       <classes>
+
+           <class name="com.cybertek.tests.multiple"></class>
+       </classes>
+    </test>
+
+</suite>
